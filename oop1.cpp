@@ -19,23 +19,33 @@ class Mahasiswa{
 
 class Matakuliah{
     private:
-        string KodeMk;
-        string NamaMk;
+        string kodeMk;
+        string namaMk;
         int sks;
     public :
         void input(){
             cout << "Kode MK: ";
-            cin >> KodeMk;
+            cin >> kodeMk;
             cout << "Nama MK: ";
-            cin >> NamaMk;
+            cin >> namaMk;
             cout << "SKS: ";
             cin >> sks;
         }
 
         void output(){
-            cout << "Kode MK: " << KodeMk << endl;
-            cout << "Nama MK: " << NamaMk << endl;
+            cout << "Kode MK: " << kodeMk << endl;
+            cout << "Nama MK: " << namaMk << endl;
             cout << "SKS: " << sks << endl;
         }
 
 };
+
+int main(){
+    Mahasiswa mhs;
+    Matakuliah mk;
+
+    
+
+    
+
+} 
